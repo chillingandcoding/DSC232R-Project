@@ -34,7 +34,7 @@ such as stopwords, tokenization, and lemmitzation. This step will be performed i
 ## Part 3 - Data Exploration
 
 ### Notebook
-DSC232R Project - Milestone 3
+[DSC232R Project - Milestone 3](https://github.com/frankyliu1/DSC232R-Project/blob/Milestone3/DSC232R%20Project%20-%20Milestone%203.ipynb)
 
 ### Summary/Conclusion
 In Part 3, we defined a function to tokenize and process our review text as well as downsampling our dataset to counter the skewness of the labels. We then uesd this function to make our dataset compatible to feed into the TF-IDF pipeline that we have also created. 
