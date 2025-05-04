@@ -9,3 +9,24 @@ we will build a linear regression model that predicts playtime based on inputs s
 Lastly, we will integrate the outputs from the previous two models into a single intelligence pipeline to create a recommendation system. This system recommends games by predicting how much time 
 a user might spend on different titles and selecting the title with the highest projected playtime. This recommendation system aims to simulate a real-world machine learning pipeline that could 
 be the framework of much more powerful recommendation systems that platforms like Steam might use. 
+
+## Part 2 - Data Exploration
+
+### Notebook
+DSC232R Project - Milestone 2
+
+### Dataset 
+100 Million+ Steam Reviews
+https://www.kaggle.com/datasets/kieranpoc/steam-reviews
+
+### Packages Needed
+All pip packages have been included to run in the notebook - kagglehub and nltk
+
+### Environment
+Native Python
+
+### Summary
+In part 2, data will be processed by filtering the dataset to determine what reviews are from legitimate users and contain useful keywords. Then we will perform standard sanitary checks
+by dropping null values, casting column types, and downsampling to prevent skewing in the label counts. This section will also conduct preliminary graphing explorations to explore data
+relationships and correlations, all of which will lay the foundation to build the first model in this project. We will pre-process our review data by utilizing NLTK and its libraries 
+such as stopwords, tokenization, and lemmitzation. This step will be performed in Part 3 - building the first model. 
