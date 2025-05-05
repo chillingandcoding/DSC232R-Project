@@ -13,7 +13,7 @@ be the framework of much more powerful recommendation systems that platforms lik
 ## Part 2 - Data Exploration
 
 ### Notebook
-[DSC232R Project - Milestone 2](https://github.com/frankyliu1/DSC232R-Project/blob/Milestone2/DSC232R%20Project%20-%20Milestone%202.ipynb)
+[DSC232R Project - Milestone 2](https://github.com/chillingandcoding/DSC232R-Project/blob/Milestone2/DSC232R%20Project%20-%20Milestone%202.ipynb)
 
 ### Dataset 
 100 Million+ Steam Reviews
