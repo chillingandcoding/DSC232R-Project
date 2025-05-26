@@ -23,7 +23,7 @@ https://www.kaggle.com/datasets/kieranpoc/steam-reviews
 All pip packages have been included to run in the notebook - kagglehub and nltk
 
 ### Environment
-Native Python
+singularitypro
 
 ### Summary
 In part 2, data will be processed by filtering the dataset to determine what reviews are from legitimate users and contain useful keywords. Then we will perform standard sanitary checks
