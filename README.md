@@ -1,6 +1,7 @@
 # DSC232R-Project
 
 ## Final Submission
+[DSC232R Project - Steam Review](https://github.com/chillingandcoding/DSC232R-Project/blob/main/DSC232R%20Project%20-%20Steam%20Review.ipynb)
 
 ## Written Report
 
@@ -17,7 +18,7 @@ be the framework of much more powerful recommendation systems that platforms lik
 ## Part 2 - Data Exploration
 
 ### Notebook
-[DSC232R Project - Milestone 2](https://github.com/chillingandcoding/DSC232R-Project/blob/Milestone2/DSC232R%20Project%20-%20Milestone%202.ipynb)
+[DSC232R Project - Milestone 2](https://github.com/chillingandcoding/DSC232R-Project/blob/main/DSC232R%20Project%20-%20Milestone%202.ipynb)
 
 ### Dataset 
 100 Million+ Steam Reviews
@@ -38,7 +39,7 @@ such as stopwords, tokenization, and lemmitzation. This step will be performed i
 ## Part 3 - Building the First Model
 
 ### Notebook
-[DSC232R Project - Milestone 3](https://github.com/chillingandcoding/DSC232R-Project/blob/Milestone3/DSC232R%20Project%20-%20Milestone%203.ipynb)
+[DSC232R Project - Milestone 3](https://github.com/chillingandcoding/DSC232R-Project/blob/main/DSC232R%20Project%20-%20Milestone%203.ipynb)
 
 ### Summary/Conclusion
 In Part 3, we defined a function to tokenize and process our review text as well as downsampling our dataset to counter the skewness of the labels. We then uesd this function to make our dataset compatible to feed into the TF-IDF pipeline that we have also created. 
