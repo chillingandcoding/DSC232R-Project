@@ -56,5 +56,5 @@ Eventually, we will combine this Linear Regression model with our Logistic Regre
 regression model which outputs a predicted playtime. Then we will wrap all of these into a pipeline at the end and create a recommendation system by 
 choosing the game with the highest projected playtime by the user. 
 
-## Part 4 - Building the Second Model and the Recommendation Pipelein 
+## Part 4 - Building the Second Model and the Recommendation Pipeline 
 To be continued.
