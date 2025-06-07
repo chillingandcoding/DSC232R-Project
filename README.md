@@ -1,5 +1,9 @@
 # DSC232R-Project
 
+## Final Submission
+
+## Written Report
+
 ## Part 1 - Abstract
 The project will explore the Kaggle dataset 100 Million+ Steam Reviews (https://www.kaggle.com/datasets/kieranpoc/steam-reviews), which contains data such as steamid, language, review sentiment, helpfulness score, review body, among many others. 
 The goal of this project is to combine two different machine learning models into an intelligence pipeline to create a recommendation system based on review sentiment and predicted playtime, 
