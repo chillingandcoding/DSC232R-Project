@@ -4,6 +4,7 @@
 [DSC232R Project - Steam Review](https://github.com/chillingandcoding/DSC232R-Project/blob/main/DSC232R%20Project%20-%20Steam%20Review.ipynb)
 
 ## Written Report
+[DSC232R Project - Written Report](https://github.com/chillingandcoding/DSC232R-Project/blob/main/DSC%20232R%20Project%20-%20Written%20Report.pdf)
 
 ## Part 1 - Abstract
 The project will explore the Kaggle dataset 100 Million+ Steam Reviews (https://www.kaggle.com/datasets/kieranpoc/steam-reviews), which contains data such as steamid, language, review sentiment, helpfulness score, review body, among many others. 
