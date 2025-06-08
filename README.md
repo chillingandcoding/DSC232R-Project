@@ -83,7 +83,7 @@ From the results of our model, it is interesting to note the accuracy of the tes
 Our project, overall, is headed in a solid direction. The next step for this project is further implementation and work on the second model and the recommendation pipeline. We learned a lot from the setbacks during this project, and in the future when working with Spark again, we feel that we have the experience equipped to set up a more robust and efficient environment. This is an area of improvement we want to emphasize because we felt, as iterated earlier, our environment setup was a pretty big bottleneck on the models and transformations we originally planned to do. Running out of memory was a big issue and we cut back a lot on the size of the data and opted for simpler models when models such as Random Forest might have performed better. This also applies to our hashing process, as we wanted to try different methods such as word2vec but we were running into memory issues. 
 
 ### Statement of Collaboration 
-Franky Liu, solo team member
+Franky Liu, solo project
 
 
 ## Part 1 - Abstract
