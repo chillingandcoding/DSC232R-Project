@@ -22,11 +22,59 @@ First Model - Logistic Regression was the model we chose to be our first model. 
 Second Model and Recommendation Pipeline - Due to issues with SDSC and time constraints, the second model and the recommendation pipeline was not able to be completed on time. However, since the majority of the framework has been completed, this can easily be revisited in the future to continue to be built to completion. 
 
 ### Results
-From our data exploration stage, we generated a top 20 reviews distribution of the number of reviews per game (Figure 1), as well as the distribution of playtime per game (Figure 2). We also explored the average playtime for all users across the data (Figure 3), where we had to log the results as the data was skewed (Figure 3). Lastly, we explored the relationship between games owned and total playtime, which had around a -13 correlation, meaning that playtime per title went down as the number of titles increased in an user’s inventory (Figure 4). 
+From our data exploration stage, we generated a top 20 reviews distribution of the number of reviews per game (Figure 1), as well as the distribution of playtime per game (Figure 2). We also explored the average playtime for all users across the data, to which we had to log the results as the data was heavily skewed (Figure 3). Lastly, we explored the relationship between games owned and total playtime, which had around a -13 correlation, meaning that playtime per title went down as the number of titles increased in an user’s inventory (Figure 4). 
+
+<br />
+
+Figure 1
+
+![Alt text](https://github.com/chillingandcoding/DSC232R-Project/blob/main/images/Figure%201.png)
+
+Figure 2
+
+![Alt text](https://github.com/chillingandcoding/DSC232R-Project/blob/main/images/Figure%202.png)
+
+Figure 3
+
+![Alt text](https://github.com/chillingandcoding/DSC232R-Project/blob/main/images/Figure%203.png)
+
+Figure 4
+
+![Alt text](https://github.com/chillingandcoding/DSC232R-Project/blob/main/images/Figure%204.png)
+
+<br />
 
 In the processing phase, an example of the stop-word removed result can be seen in (Figure 5). An example of how we downsampled our data to remove skewness and prevent memory issues can be seen in (Figure 6) and a visual representation of the top 20 most used tokens can be seen in (Figure 7).
 
+<br />
+
+Figure 5
+
+![Alt text](https://github.com/chillingandcoding/DSC232R-Project/blob/main/images/Figure%205.png)
+
+Figure 6
+
+![Alt text](https://github.com/chillingandcoding/DSC232R-Project/blob/main/images/Figure%206.png)
+
+Figure 7
+
+![Alt text](https://github.com/chillingandcoding/DSC232R-Project/blob/main/images/Figure%207.png)
+
+<br />
+
 Lastly, for our logistic regression model, our initiation of the model can be seen in (Figure 8), where we created a pipeline for the hashing and IDF functions. The accuracy of the model was 81.8% for the training set, 81.75% for the validation set, and 81.71% for the test set. The confusion matrix of the model can be seen in (Figure 9). In the confusion matrix, we can see that the model is making more mistakes predicting a bad sentiment compared to positive. This is to be expected since there were not a lot of negative labels to learn from - so much so that we had to downsample our positive labels to prevent overfitting.
+
+<br />
+
+Figure 8
+
+![Alt text](https://github.com/chillingandcoding/DSC232R-Project/blob/main/images/Figure%208.png)
+
+Figure 9
+
+![Alt text](https://github.com/chillingandcoding/DSC232R-Project/blob/main/images/Figure%209.png)
+
+<br />
 
 ### Discussion
 From the results of our model, it is interesting to note the accuracy of the test set and validation set is very similar, it would be a red flag if the test set has a higher accuracy but it is not in this case. This could indicate a couple things, such as the model having a fairly good generalization and not overfitting to the data. However, to play the devil’s advocate and explore what potential shortcomings that might have caused this, there are several candidates. The first being that the TF-IDF vectors are too sparse for the model to learn and the results of ~80% might be generous due to the specific seed chosen and the actual variations of the results might be worse than portrayed. Another candidate is that we lost a lot of information when we downsampled our positive sentiment data by around 86% to match with the number of negative sentiment data. Although this was partly due to the fact that the project environment would not be able to train such a big cluster of a dataset and this also brings up another point - which was the environment setup. A major bottleneck in this project was the amount of memory available, which might have been due to setup. This bottleneck placed some restrictions on how much of the data we can pull to work with and prevented us from utilizing caching and deploying more memory intensive models such as Random Forest. Overall, the accuracy of the model was satisfactory and the shortcomings that were noted were a valuable experience to add on to future models. 
@@ -37,8 +85,6 @@ Our project, overall, is headed in a solid direction. The next step for this pro
 ### Statement of Collaboration 
 Franky Liu, solo team member
 
-
-[DSC232R Project - Written Report](https://github.com/chillingandcoding/DSC232R-Project/blob/main/DSC%20232R%20Project%20-%20Written%20Report.pdf)
 
 ## Part 1 - Abstract
 The project will explore the Kaggle dataset 100 Million+ Steam Reviews (https://www.kaggle.com/datasets/kieranpoc/steam-reviews), which contains data such as steamid, language, review sentiment, helpfulness score, review body, among many others. 
